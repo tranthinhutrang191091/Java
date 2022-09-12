@@ -1,0 +1,44 @@
+package objectcollection;
+
+import java.util.LinkedList;
+import java.util.TreeMap;
+
+import object.School;
+import object.Unit;
+
+public class SchoolUnit {
+	private School school;
+	private LinkedList<UnitClass> listUnitClass;
+	private TreeMap<School, LinkedList> mapSchoolUnit= new TreeMap<School, LinkedList>();
+	public SchoolUnit() {
+		this.school = new School();
+		this.listUnitClass = new LinkedList<UnitClass>();
+		this.mapSchoolUnit = new TreeMap<School, LinkedList>();
+	}
+	public SchoolUnit(School school, LinkedList<UnitClass> listUnitClass) {
+		
+		this.school = school;
+		this.listUnitClass = listUnitClass;
+		this.mapSchoolUnit.put(school, listUnitClass);
+		
+	}
+	public School getSchool() {
+		return school;
+	}
+	public void setSchool(School school) {
+		this.school = school;
+	}
+	public LinkedList<UnitClass> getListUnitClass() {
+		return listUnitClass;
+	}
+	public void setListUnitClass(LinkedList<UnitClass> listUnitClass) {
+		this.listUnitClass = listUnitClass;
+	}
+	public TreeMap<School, LinkedList> getMapSchoolUnit() {
+		return mapSchoolUnit;
+	}
+	public void setMapSchoolUnit(TreeMap<School, LinkedList> mapSchoolUnit) {
+		this.mapSchoolUnit = mapSchoolUnit;
+	}
+	
+}

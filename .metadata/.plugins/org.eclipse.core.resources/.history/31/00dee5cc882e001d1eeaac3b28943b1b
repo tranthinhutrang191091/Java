@@ -1,0 +1,11 @@
+package com.daicent;
+
+public class ThoiKhoaBieu {
+	private Day thu;
+	private String monHoc;
+	public ThoiKhoaBieu(Day thu, String monHoc) {
+		this.thu = thu;
+		this.monHoc = monHoc;
+	}
+	
+}

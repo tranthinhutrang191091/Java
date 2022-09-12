@@ -1,0 +1,19 @@
+1661998708054	Rename compilation unit 'Singleton.java'
+1661998776297	Rename type 'Singleton'
+1661998846996	Rename type 'Singleton'
+1662001190742	Rename package 'Eager_Initialization'
+1662001234012	Rename package 'Eager_Initialization_1'
+1662001310461	Rename package 'StaticBlockInitialization'
+1662001338809	Delete element
+1662002397891	Move compilation unit
+1662002404322	Move compilation unit
+1662002410886	Move compilation unit
+1662002417512	Move compilation unit
+1662002421186	Move compilation unit
+1662002424237	Move compilation unit
+1662002445512	Rename type 'Bill_Pugh_Singleton'
+1662002454198	Rename type 'Eager_Singleton'
+1662002468527	Rename type 'Lazy_Singleton'
+1662002482213	Rename type 'Static_Block_Singleton'
+1662002494108	Rename type 'Thread_Safe_Singleton'
+1662002501422	Delete elements

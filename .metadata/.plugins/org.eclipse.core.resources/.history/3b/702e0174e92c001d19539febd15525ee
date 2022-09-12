@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Chuoi_String {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		String s;
+		System.out.print("Nhập vào chuỗi s =");
+		s=sc.nextLine();
+	}
+}

@@ -1,0 +1,10 @@
+package public_protected_private;
+
+public class SubCode extends Code {
+	public void method() {
+		// super.a => ko dùng đc biến a
+		super.b=5;
+		super.c=5;
+		super.d=5;
+	}
+}

@@ -1,0 +1,12 @@
+package object;
+
+public enum Subject1 {
+	Math,
+	English,
+	Art,
+	Exercise,
+	Vietnamese,
+	Music,
+	Science,
+	History
+}

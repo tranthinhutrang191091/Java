@@ -1,0 +1,28 @@
+
+public class Toyota extends Car {
+
+	@Override
+	public void startUp() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void acceleration() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double getSpeedAfterTax() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Car car1= new Accent(2.5, 1.5, 500.0, 4, "red", 2000000,"gasoline" );
+		System.out.println(car1);
+		System.out.println("Price of Accent after tax: "+car1.getSpeedAfterTax()+"VNĐ");
+		car1.startUp();
+		car1.acceleration();
+		car1.stop();
+		
+		Car car2= new SantaFe(2.5, 1.5, 500.0, 4, "red", 2000000,"gasoline" );
+		System.out.println(car2);
+		System.out.println("Price of SantaFe after tax: "+car2.getSpeedAfterTax()+"VNĐ");
+		car2.startUp();
+		car2.acceleration();
+		car2.stop();
+		
+		Car car3 = new Accent(0, 0, 0, 0, null, 0, null);
+		
+	}
+}

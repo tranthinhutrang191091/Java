@@ -1,0 +1,16 @@
+package objectcollection;
+
+import java.util.Set;
+
+public class ListSchool {
+	Set<SchoolUnit> listSchool = new Set<SchoolUnit>();
+
+	public ListSchool() {
+		this.listSchool = new Set<SchoolUnit>();
+	}
+
+	public ListSchool(Set<SchoolUnit> listSchool) {
+		this.listSchool = listSchool;
+	}
+	
+}

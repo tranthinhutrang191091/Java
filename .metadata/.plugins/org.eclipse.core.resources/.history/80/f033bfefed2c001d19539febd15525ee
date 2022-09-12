@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Chuoi_String {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		String s ="Trần Thị Như Trang";
+		//System.out.print("Nhập vào chuỗi s =");
+		//s=sc.nextLine();
+		System.out.println("--------------------");
+		// Hàm length(): lấy độ dài của chuỗi
+		System.out.println("length(): "+s.length());
+		int doDai = s.length();
+		// Hàm charAt(vi tri): lấy ra 1 ký tự tại vị trí
+		for(int i=0;i<s.length();i++) {
+			System.out.println("Vị trí "+i+ " là: "+s.charAt(i));
+		}
+		// Hàm getChars(vị trí bắt đầu, vị trí kết thúc -1,
+		// mảng lưu dữ liệu, ví trí bắt đầu lưu mảng)
+		char[] arr = new char[20];
+		s.getChars(2, 7, arr, 0);
+		for(int i=0;i<arr.length;i++) {
+			System.out.println("Giá trị của mảng tại "+i+" là: "+arr[i]);
+		}
+		// Hàm getBytes()=> có 3 cách lấy ra giá trị của các 
+		// ký tự của 1 mảng
+		byte[] arrByte= s.getBytes();
+		for(byte b:arrByte) {
+			System.out.print(b+", ");
+		}
+		System.out.println();
+		String s1="Trần Thị như Trang";
+		String s2="TRẦN THỊ NHƯ TRANG";
+		String s3= "trần thị như trang";
+		String s4= "trần thị như trang";
+		// Hàm equals() 
+		// => so sánh 2 chuỗi giống nhau có phân biệt hoa thường
+		System.out.println("s1 equals s2: "+s1.equals(s2));
+		System.out.println("s3 equals s4: "+s3.equals(s4));
+		// Hàm equalsIgnoreCase()
+		// => so sánh 2 chuỗi giống nhau ko phân biệt hoa thường
+		System.out.println("s1 equalsIgnoreCase s2: "+s1.equalsIgnoreCase(s2));
+		System.out.println("s3 equalsIgnoreCase s4: "+s3.equalsIgnoreCase(s4));
+		
+		// Hàm compareTo()
+		// => so sánh > < =
+		String sv1="Nguyễn Văn A";
+		String sv2="Nguyễn Văn B";
+		String sv3="Trần Văn A";
+		System.out.println("sv1 compareTo sv2: "+ sv1.compareTo(sv2));
+		System.out.println("sv1 compareTo sv3: "+ sv1.compareTo(sv3));
+		
+		
+	}
+}

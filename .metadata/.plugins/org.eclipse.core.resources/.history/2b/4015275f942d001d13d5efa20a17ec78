@@ -1,0 +1,23 @@
+
+public class Chuoi_StringBuider {
+	/*
+	 * Khả biến, dùng trong single - thread(non-syschronized)
+	 * 
+	 */
+	public static void main(String[] args) {
+		// Khởi tạo 16 
+		StringBuilder stringBuider= new StringBuilder();
+		System.out.println("Capacity stringbuider: "+stringBuider.capacity());
+		StringBuilder stringBuider1= new StringBuilder("trần thị như trang");
+		System.out.println("Capacity stringbuider1: "+stringBuider1.capacity());
+		StringBuilder stringBuider2= new StringBuilder(10);
+		stringBuider2.append("12345");
+		System.out.println("Capacity stringbuider1: "+stringBuider2.capacity());
+		
+		
+		
+	}
+	
+	
+	
+}

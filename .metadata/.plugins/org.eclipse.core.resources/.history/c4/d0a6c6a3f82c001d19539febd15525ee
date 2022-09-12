@@ -1,0 +1,51 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Mang_Array {
+	public static void main(String[] args) {
+		double[] mang1 = { 1, 2, 3, 4, 5 };
+		double mang2[];
+		mang1 = new double[10];
+		/*
+		 * Scanner sc = new Scanner(System.in); for (int i = 0; i < mang1.length; i++) {
+		 * System.out.print("Nhập phần mang1[" + i + "] = "); mang1[i] =
+		 * sc.nextDouble(); }
+		 */
+		double tong = 0;
+		for (int i = 0; i < mang1.length; i++) {
+			tong += mang1[i];
+		}
+		System.out.println("Tổng = " + tong);
+
+		mang2 = new double[] { 1, 2, 3, 4, 5 };
+		for (int i = 0; i < mang2.length; i++) {
+			System.out.println("mang2[" + i + "] = " + mang2[i]);
+		}
+
+		// Kiểu dữ liệu nguyên thủy
+		int[] mang3 = { 1, 2, 3 };
+		// Copy mảng
+		System.out.println("-----Copy mảng-----");
+		int[] mang3_a = mang3;
+		mang3_a[0] = 100;
+		System.out.println("Mảng 3 = " + Arrays.toString(mang3));
+		System.out.println("Mảng 3_a= " + Arrays.toString(mang3_a));
+
+		// copy mảng dùng hàm clone()
+		System.out.println("-----Copy mảng hàm clone()-----");
+		int[] mang3_b = mang3.clone();
+		mang3_b[0] = 50;
+		System.out.println("Mảng 3 = " + Arrays.toString(mang3));
+		System.out.println("Mảng 3_b= " + Arrays.toString(mang3_b));
+
+		// copy mảng dùng hàm System.arraycopy()
+		System.out.println("-----Copy mảng hàm System.arraycopy()-----");
+		int[] mang3_c = new int[mang3.length];
+		System.arraycopy(mang3, 0, mang3_c, 0, mang3.length);
+		mang3_c[0] = 90;
+		System.out.println("Mảng 3 = " + Arrays.toString(mang3));
+		System.out.println("Mảng 3_c= " + Arrays.toString(mang3_c));
+
+	}
+}

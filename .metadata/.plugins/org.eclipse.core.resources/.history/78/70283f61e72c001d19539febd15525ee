@@ -1,0 +1,5 @@
+package public_protected_private;
+
+public class SubCode extends Code {
+
+}

@@ -1,0 +1,78 @@
+package object;
+
+import java.util.LinkedList;
+
+import objectcollection.ListStudent;
+
+public class Class implements Comparable<Class> {
+	private int idClass;
+	private String nameClass;
+	private LinkedList<Student> listStudent;
+	public Class() {
+		this.listStudent= new LinkedList<Student>();
+	}
+	public Class(int idClass, String nameClass,LinkedList<Student> listStudent) {
+		this.idClass = idClass;
+		this.nameClass = nameClass;
+		this.listStudent = listStudent;
+	}
+	public int getIdClass() {
+		return idClass;
+	}
+	public void setIdClass(int idClass) {
+		this.idClass = idClass;
+	}
+	public String getNameClass() {
+		return nameClass;
+	}
+	public void setNameClass(String nameClass) {
+		this.nameClass = nameClass;
+	}
+	
+	public LinkedList<Student> getListStudent() {
+		return listStudent;
+	}
+	public void setListStudent(LinkedList<Student> listStudent) {
+		this.listStudent = listStudent;
+	}
+	@Override
+	public String toString() {
+		String resuft="";
+		for(int i=0;i<this.listStudent.size();i++) {
+			resuft+="|"+ idClass+ "\t|"+ nameClass + "\t"+listStudent.get(i);
+			
+		}
+			
+		return resuft;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((nameClass == null) ? 0 : nameClass.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Class other = (Class) obj;
+		if (nameClass == null) {
+			if (other.nameClass != null)
+				return false;
+		} else if (!nameClass.equals(other.nameClass))
+			return false;
+		return true;
+	}
+	@Override
+	public int compareTo(Class o) {
+		String nameThis=this.getNameClass();
+		String nameO=o.getNameClass();
+		return nameThis.compareTo(nameO);
+	}
+	
+}

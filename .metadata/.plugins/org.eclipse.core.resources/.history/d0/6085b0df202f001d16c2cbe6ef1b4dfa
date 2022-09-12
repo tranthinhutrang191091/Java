@@ -1,0 +1,5 @@
+package Objcet;
+
+public enum Subjects {
+
+}

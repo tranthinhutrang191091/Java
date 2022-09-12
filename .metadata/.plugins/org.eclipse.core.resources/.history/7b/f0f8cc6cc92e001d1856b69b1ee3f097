@@ -1,0 +1,37 @@
+package com.daicent;
+
+import java.util.LinkedList;
+
+/*
+ * 1. Thừa lớp AbstractSequentialList 
+ * triển khai của List, Queue Interface trong Collections 
+ * nên nó sẽ có một vài đặc điểm và phương thức tương đồng 
+ * với List, Queue.
+ * 2. Sử dụng cấu trúc danh sách liên kết kép Doubly 
+ * để lưu trữ các phần tử
+ * 
+ * 3. có thể chứa các phần tử trùng lặp
+ * 4. duy trì thứ tự của phần tử được thêm vào
+ * 5. non-synchronized 
+ * => thao tác nhanh 
+ * vì không cần phải dịch chuyển 
+ * nếu bất kỳ phần tử nào bị xoá khỏi danh sách
+ * có thể được sử dụng như list , stack  hoặc queue 
+ */
+public class LinkedListCollection {
+	public static void main(String[] args) {
+		// khai báo 1 LinkedList có tên là linkedList
+		// có kiểu là String
+		LinkedList<String> linkedList = new LinkedList<String>();
+		// thêm các phần tử vào list
+		linkedList.add("trần");
+		linkedList.add("thị");
+		linkedList.add("như");
+		linkedList.add("trang");
+        // hiển thị các phần tử của list
+        System.out.println("Các phần tử có trong list là: ");
+        System.out.println(linkedList);
+		
+		
+	}
+}

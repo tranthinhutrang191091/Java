@@ -1,0 +1,57 @@
+package ObjectCollection;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Set;
+
+import Object.School;
+
+public class ListSchool  {
+		private HashSet<School> listSchool;
+
+		public ListSchool(HashSet<School> listSchool) {
+			this.listSchool = listSchool;
+		}
+
+		public HashSet<School> getListSchool() {
+			return listSchool;
+		}
+
+		public void setListSchool(HashSet<School> listSchool) {
+			this.listSchool = listSchool;
+		}
+		private void loadListSchool() {
+			for(School school : listSchool) {
+				System.out.println(school);
+			}
+		}
+		public boolean checkListStudentNull() {
+			return this.listSchool.isEmpty();
+		}
+		public int countStudent() {
+			return this.listSchool.size();
+		}
+		public void removeAllStudent() {
+			this.listSchool.removeAll(listSchool);
+		}
+		public boolean checkStudent(School school) {
+			return this.listSchool.contains(school);
+		}
+		public boolean removeStudent(School school) {
+			return this.listSchool.remove(school);
+		}
+		public void searchStudent(String name) {
+			int cout=0;
+			for(School school: this.listSchool) {
+				if(school.getNameSchool().indexOf(name)>=0) {
+					System.out.println(school);
+					cout++;
+				}
+			}
+			if(cout==0) {
+				System.out.println("Haven't school name: "+ name);
+			}	
+		}
+		
+}

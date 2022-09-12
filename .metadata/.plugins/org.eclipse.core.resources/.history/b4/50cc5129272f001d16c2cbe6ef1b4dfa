@@ -1,0 +1,28 @@
+package Object;
+
+public class School {
+	private String idSchool;
+	private String nameSchool;
+	public School(String idSchool, String nameSchool) {
+		super();
+		this.idSchool = idSchool;
+		this.nameSchool = nameSchool;
+	}
+	public String getIdSchool() {
+		return idSchool;
+	}
+	public void setIdSchool(String idSchool) {
+		this.idSchool = idSchool;
+	}
+	public String getNameSchool() {
+		return nameSchool;
+	}
+	public void setNameSchool(String nameSchool) {
+		this.nameSchool = nameSchool;
+	}
+	@Override
+	public String toString() {
+		return "|" + idSchool + "\t|" + nameSchool + "\t|";
+	}
+	
+}

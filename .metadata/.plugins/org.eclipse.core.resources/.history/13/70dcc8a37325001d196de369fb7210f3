@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ClassMath {
+	public static void main(String[] args) {
+		double a,b;
+		Scanner sc= new Scanner(System.in);
+		System.out.print("Nhập a = ");
+		a=sc.nextDouble();
+		System.out.print("Nhập b = ");
+		b=sc.nextDouble();
+		
+		// Hàm trị tuyệt đối
+		System.out.println("|"+a+"| = " +Math.abs(a));
+		// Hàm min
+		System.out.println("min("+a+" , "+b+") = " +Math.min(a,b));
+		// Hàm max
+		System.out.println("max("+a+" , "+b+") = " +Math.max(a,b));
+		// Hàm ceil: lấy số nguyên >=a
+		System.out.println("cel("+a+") = " +Math.ceil(a));
+		// Hàm floor lấy số nguyên <=a
+		System.out.println("floor("+a+") = " +Math.floor(a));
+		// Hàm sqrt: căn bậc hai
+		System.out.println("sqrt("+a+") = " +Math.sqrt(a));
+		// Hàm a^b
+		System.out.println(a+"^"+b+" = " +Math.pow(a,b));
+		// Hàm acos : tính acos của góc
+		System.out.println("acos(0.5) = " +Math.acos(0.5));
+		// Hàm addExact(int x, int y)
+		
+	}
+}

@@ -1,0 +1,25 @@
+package object;
+
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class ClassStudent {
+	private Class classO;
+	private LinkedList <Student> listStudent;
+	private TreeMap<Class, LinkedList<Student>> mapClass;
+	
+	public ClassStudent() {
+		this.classO= new Class();
+		this.listStudent = new LinkedList<Student>();
+		this.mapClass = new TreeMap<Class, LinkedList<Student>>();
+	}
+
+	public ClassStudent(Class classO, LinkedList<Student> listStudent, TreeMap<Class, LinkedList<Student>> mapClass) {
+		this.classO = classO;
+		this.listStudent = listStudent;
+		this.mapClass = mapClass;
+	}
+	
+	
+}

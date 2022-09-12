@@ -1,0 +1,23 @@
+package com.daicent;
+/*
+ * 1.Set là một interface kế thừa Collection interface trong java. 
+ * 2.Set trong java là một Collection 
+ * 	không thể chứa các phần tử trùng lặp.
+ * 3.Set được triển khai bởi:
+ * 	Hashset, LinkedHashset, Treeset hoặc EnumSet.
+ * 3a. HashSet lưu trữ các phần tử của nó trong bảng băm, 
+ * là cách thực hiện tốt nhất, 
+ * tuy nhiên nó không đảm bảo về thứ tự các phần tử được chèn vào.
+ * 3b. TreeSet lưu trữ các phần tử của nó trong một cây, 
+ * sắp xếp các phần tử của nó dựa trên các giá trị của chúng, 
+ * về cơ bản là chậm hơn HashSet.
+ * 3c. LinkedHashSet được triển khai dưới dạng bảng băm
+ * có cấu trúc dữ liệu danh sách liên kết,
+ *  sắp xếp các phần tử của nó dựa trên thứ tự chúng 
+ *  được chèn vào tập hợp (thứ tự chèn).
+ * 3d. EnumSet là một cài đặt chuyên biệt để sử dụng với các kiểu enum.
+ */
+
+public class Set {
+	
+}

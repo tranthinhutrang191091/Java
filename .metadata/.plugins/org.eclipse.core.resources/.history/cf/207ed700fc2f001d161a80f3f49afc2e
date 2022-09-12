@@ -1,0 +1,61 @@
+package object;
+
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class ClassStudent {
+	private Class classO;
+	private LinkedList <Student> listStudent;
+	private TreeMap<Class, LinkedList<Student>> mapClass;
+	
+	public ClassStudent() {
+		this.classO= new Class();
+		this.listStudent = new LinkedList<Student>();
+		this.mapClass = new TreeMap<Class, LinkedList<Student>>();
+	}
+
+	public ClassStudent(Class classO, LinkedList<Student> listStudent) {
+		this.classO = classO;
+		this.listStudent = listStudent;
+		this.mapClass = new TreeMap<Class, LinkedList<Student>>();
+		this.mapClass.put(classO, listStudent);
+	}
+
+	public Class getClassO() {
+		return classO;
+	}
+
+	public void setClassO(Class classO) {
+		this.classO = classO;
+	}
+
+	public LinkedList<Student> getListStudent() {
+		return listStudent;
+	}
+
+	public void setListStudent(LinkedList<Student> listStudent) {
+		this.listStudent = listStudent;
+	}
+
+	public TreeMap<Class, LinkedList<Student>> getMapClass() {
+		return mapClass;
+	}
+
+	public void setMapClass(TreeMap<Class, LinkedList<Student>> mapClass) {
+		this.mapClass = mapClass;
+	}
+
+	@Override
+	public String toString() {
+		String resuft="";
+		for(int i=0;i<this.listStudent.size();i++) {
+			resuft+="|"+ this.classO.getIdClass()+ "\t|"+ this.classO.getNameClass() + "\t"+listStudent.get(i);
+			
+		}
+			
+		return resuft;
+	}
+	
+	
+}

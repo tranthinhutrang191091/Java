@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item key="group_libraries" value="true"/>
+		<item key="layout" value="2"/>
+		<item key="rootMode" value="1"/>
+		<item key="linkWithEditor" value="false"/>
+		<item key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1660286752082&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+		<item key="configure_problem_severity_dialog_id" value="false"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item key="create_constructor" value="false"/>
+		<item key="create_unimplemented" value="true"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="6"/>
+		<item key="DIALOG_Y_ORIGIN" value="58"/>
+		<item key="DIALOG_WIDTH" value="864"/>
+		<item key="DIALOG_HEIGHT" value="557"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="18"/>
+		<item key="antpath" value="C:\Users\Admin\Desktop\Java\SchoolCollection\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\Admin\Desktop\Java\SchoolCollection\doc"/>
+		<section name="projects">
+			<section name="Bai_6_XuLyLoi">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_6_XuLyLoi\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_6_XuLyLoi\javadoc.xml"/>
+			</section>
+			<section name="Bai_26_StringArray">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_26_StringArray\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_26_StringArray\javadoc.xml"/>
+			</section>
+			<section name="DesignPattern">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\DesignPattern\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\DesignPattern\javadoc.xml"/>
+			</section>
+			<section name="Builder">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Builder\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Builder\javadoc.xml"/>
+			</section>
+			<section name="Bai_24_String">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_24_String\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_24_String\javadoc.xml"/>
+			</section>
+			<section name="Bai_9_PhepToan">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\repository3\Bai_9_PhepToan\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\repository3\Bai_9_PhepToan\javadoc.xml"/>
+			</section>
+			<section name="Bai_8_EpKieuDuLieu">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_8_EpKieuDuLieu\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_8_EpKieuDuLieu\javadoc.xml"/>
+			</section>
+			<section name="Bai_22_Array">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_22_Array\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_22_Array\javadoc.xml"/>
+			</section>
+			<section name="Bai_28_CalendarDateTime">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_28_CalendarDateTime\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_28_CalendarDateTime\javadoc.xml"/>
+			</section>
+			<section name="Bai_19_Do_While">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_19_Do_While\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_19_Do_While\javadoc.xml"/>
+			</section>
+			<section name="Bai_12_PhepToanSoSanhVaDieuKien">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_12_PhepToanSoSanhVaDieuKien\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_12_PhepToanSoSanhVaDieuKien\javadoc.xml"/>
+			</section>
+			<section name="Bai_25_CompareTo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_25_CompareTo\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_25_CompareTo\javadoc.xml"/>
+			</section>
+			<section name="Bai_3_KieuDuLieu">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\repository4\Bai_3_KieuDuLieu\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\repository4\Bai_3_KieuDuLieu\javadoc.xml"/>
+			</section>
+			<section name="Bai_5_GhiChu">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\TaiLieuHuongDan"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_5_GhiChu\javadoc.xml"/>
+			</section>
+			<section name="Bai_18_While">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_18_While\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_18_While\javadoc.xml"/>
+			</section>
+			<section name="Bai_23_OOP">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_23_OOP\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_23_OOP\javadoc.xml"/>
+			</section>
+			<section name="Bai_13_ToanTuDieuKien">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_13_ToanTuDieuKien\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_13_ToanTuDieuKien\javadoc.xml"/>
+			</section>
+			<section name="Bai_2_Bien">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\repository\Bai_2_Bien\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\repository\Bai_2_Bien\javadoc.xml"/>
+			</section>
+			<section name="SingletonPattern">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\SingletonPattern\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\SingletonPattern\javadoc.xml"/>
+			</section>
+			<section name="CarManagement">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\CarManagement\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\CarManagement\javadoc.xml"/>
+			</section>
+			<section name="Bai_4_HangSo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_4_HangSo\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_4_HangSo\javadoc.xml"/>
+			</section>
+			<section name="FactoryMethod">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\FactoryMethod\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\FactoryMethod\javadoc.xml"/>
+			</section>
+			<section name="Bai_15_If_Else">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\Bai_3_LKieuDuLieu\Bai_15_If_Else\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\Bai_3_LKieuDuLieu\Bai_15_If_Else\javadoc.xml"/>
+			</section>
+			<section name="Bai_11_GanDuLieu">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\repository2\Bai_11_GanDuLieu\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\repository2\Bai_11_GanDuLieu\javadoc.xml"/>
+			</section>
+			<section name="Bai_16_Switch_Case">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\git\Bai_3_LKieuDuLieu\Bai_16_Switch_Case\doc"/>
+				<item key="antpath" value="C:\Users\Admin\git\Bai_3_LKieuDuLieu\Bai_16_Switch_Case\javadoc.xml"/>
+			</section>
+			<section name="Bai_7_NhapDuLieu">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_7_NhapDuLieu\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_7_NhapDuLieu\javadoc.xml"/>
+			</section>
+			<section name="School">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\School\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\School\javadoc.xml"/>
+			</section>
+			<section name="Bai_21_Try_Catch_Finally">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_21_Try_Catch_Finally\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_21_Try_Catch_Finally\javadoc.xml"/>
+			</section>
+			<section name="Bai_17_For">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_17_For\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_17_For\javadoc.xml"/>
+			</section>
+			<section name="Bai_20_Break_Continue_Return">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_20_Break_Continue_Return\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_20_Break_Continue_Return\javadoc.xml"/>
+			</section>
+			<section name="SchoolCollection">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\SchoolCollection\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\SchoolCollection\javadoc.xml"/>
+			</section>
+			<section name="AbstractFactory">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\AbstractFactory\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\AbstractFactory\javadoc.xml"/>
+			</section>
+			<section name="Bai_27_RanDomAndNumberFormat">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_27_RanDomAndNumberFormat\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_27_RanDomAndNumberFormat\javadoc.xml"/>
+			</section>
+			<section name="Bai_29_Enum">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_29_Enum\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_29_Enum\javadoc.xml"/>
+			</section>
+			<section name="Bai_14_Math">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_14_Math\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_14_Math\javadoc.xml"/>
+			</section>
+			<section name="Bai_30_Collection">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Admin\Desktop\Java\Bai_30_Collection\doc"/>
+				<item key="antpath" value="C:\Users\Admin\Desktop\Java\Bai_30_Collection\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+		<item key="renameSubpackages" value="false"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item key="VisibilityModifier" value="1"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="SynchronizedModifier" value="false"/>
+		<item key="Comments" value="false"/>
+		<item key="InstanceOf" value="false"/>
+		<item key="Blocks" value="false"/>
+		<item key="Objects.equals &amp; Objects.hash" value="false"/>
+		<item key="LimitElements" value="false"/>
+		<item key="IgnoreDefault" value="true"/>
+		<item key="StringStyle" value="0"/>
+		<item key="LimitValue" value="10"/>
+		<item key="SkipNull" value="false"/>
+		<item key="ToStringTemplateSelected" value="0"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item key="SortOrdering" value="false"/>
+		<item key="RemoveFinal" value="false"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="142"/>
+		<item key="DIALOG_Y_ORIGIN" value="6"/>
+		<item key="DIALOG_WIDTH" value="588"/>
+		<item key="DIALOG_HEIGHT" value="708"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
+		<item key="DIALOG_X_ORIGIN" value="142"/>
+		<item key="DIALOG_Y_ORIGIN" value="25"/>
+		<item key="DIALOG_WIDTH" value="588"/>
+		<item key="DIALOG_HEIGHT" value="607"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item key="VisibilityModifier" value="1"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="SynchronizedModifier" value="false"/>
+		<item key="Comments" value="false"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="142"/>
+		<item key="DIALOG_Y_ORIGIN" value="6"/>
+		<item key="DIALOG_WIDTH" value="588"/>
+		<item key="DIALOG_HEIGHT" value="690"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_X_ORIGIN" value="142"/>
+		<item key="DIALOG_Y_ORIGIN" value="6"/>
+		<item key="DIALOG_WIDTH" value="588"/>
+		<item key="DIALOG_HEIGHT" value="694"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="6"/>
+			<item key="DIALOG_Y_ORIGIN" value="-13"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="168"/>
+		<item key="DIALOG_Y_ORIGIN" value="80"/>
+		<item key="DIALOG_WIDTH" value="536"/>
+		<item key="DIALOG_HEIGHT" value="524"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="98"/>
+		<item key="DIALOG_Y_ORIGIN" value="-14"/>
+		<item key="DIALOG_WIDTH" value="417"/>
+		<item key="DIALOG_HEIGHT" value="527"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="INCLUDE_MASK" value="11"/>
+		<item key="HISTORY_SIZE" value="0"/>
+	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+		<item key="expanded3" value="false"/>
+		<item key="expanded4" value="false"/>
+		<item key="expanded5" value="false"/>
+		<item key="expanded6" value="false"/>
+		<item key="expanded7" value="false"/>
+		<item key="expanded8" value="false"/>
+	</section>
+</section>

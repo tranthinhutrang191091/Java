@@ -1,0 +1,7 @@
+package com.daicent;
+// Đồng bộ luồng -> an toàn dữ liệu
+public class SynchoronizationThread {
+	public static void main(String[] args) {
+		
+	}
+}

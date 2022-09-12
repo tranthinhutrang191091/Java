@@ -1,0 +1,55 @@
+package objectcollection;
+
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Set;
+import java.util.TreeMap;
+
+import object.Student;
+import object.Subject;
+
+public class StudentSubject {
+	private Student student;
+	private SubjectScore subjcetScore;
+	private TreeMap<Student,SubjectScore> mapStudent = new TreeMap<Student, SubjectScore>();
+	
+	public StudentSubject() {
+		this.student = new Student();
+		this.subjcetScore = new SubjectScore();
+		this.mapStudent = new TreeMap<Student, SubjectScore>();
+	}
+
+	public StudentSubject(Student student,SubjectScore subjcetScore) {
+		this.student = student;
+		this.subjcetScore= subjcetScore;
+		this.mapStudent.put(student, subjcetScore);
+		
+	}
+
+	public Student getStudent() {
+		return student;
+	}
+
+	public void setStudent(Student student) {
+		this.student = student;
+	}
+
+	public SubjectScore getSubjcetScore() {
+		return subjcetScore;
+	}
+
+	public void setSubjcetScore(SubjectScore subjcetScore) {
+		this.subjcetScore = subjcetScore;
+	}
+
+	@Override
+	public String toString() {
+		String resuft = "";
+		Set<Student> setStudent = mapStudent.keySet();
+		for (Student key : setStudent) {
+			System.out.println(key + "\t" + mapStudent.get(key));
+		}
+		return resuft;
+	}
+	
+}

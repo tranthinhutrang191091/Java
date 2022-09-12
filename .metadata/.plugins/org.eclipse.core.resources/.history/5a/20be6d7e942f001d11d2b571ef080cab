@@ -1,0 +1,5 @@
+package com.daicent;
+// Đồng bộ luồng
+public class SynchoronizationThread {
+
+}

@@ -1,0 +1,55 @@
+package object;
+
+public class Subject implements Comparable<Subject>{
+	private int idSubject;
+	private int nameSubject;
+	public Subject() {
+	}
+	public Subject(int idSubject, int nameSubject) {
+		this.idSubject = idSubject;
+		this.nameSubject = nameSubject;
+	}
+	public int getIdSubject() {
+		return idSubject;
+	}
+	public void setIdSubject(int idSubject) {
+		this.idSubject = idSubject;
+	}
+	public int getNameSubject() {
+		return nameSubject;
+	}
+	public void setNameSubject(int nameSubject) {
+		this.nameSubject = nameSubject;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + idSubject;
+		result = prime * result + nameSubject;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Subject other = (Subject) obj;
+		if (idSubject != other.idSubject)
+			return false;
+		if (nameSubject != other.nameSubject)
+			return false;
+		return true;
+	}
+	@Override
+	public int compareTo(Subject o) {
+		int nameThis=this.getNameSubject();
+		int nameO=o.getNameSubject();
+		return nameThis.compareTo(nameO);
+	}
+	
+	
+}

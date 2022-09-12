@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Break_Continue_Return&apos; to &apos;Break&apos;&#x0D;&#x0A;- Original project: &apos;Bai_20_Break_Continue_Return&apos;&#x0D;&#x0A;- Original element: &apos;Break_Continue_Return&apos;&#x0D;&#x0A;- Renamed element: &apos;Break&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Break_Continue_Return&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Break_Continue_Return.java[Break_Continue_Return" matchStrategy="1" name="Break" qualified="false" references="true" similarDeclarations="false" stamp="1661613159691" textual="false" version="1.0"/>
+</session>

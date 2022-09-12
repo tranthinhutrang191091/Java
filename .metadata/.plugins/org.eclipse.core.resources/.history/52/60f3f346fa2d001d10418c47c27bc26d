@@ -1,0 +1,5 @@
+package buttons;
+
+public interface MacOSButton {
+	void paint();
+}

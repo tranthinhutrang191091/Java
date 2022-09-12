@@ -1,0 +1,7 @@
+package cars;
+
+public class CarType {
+	public enum Car_Type {
+	    CITY_CAR, SPORTS_CAR, SUV
+	}
+}

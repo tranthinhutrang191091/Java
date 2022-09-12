@@ -1,0 +1,38 @@
+
+public class Chuoi_StringBuider {
+	/*
+	 * Khả biến, dùng trong single - thread(non-syschronized)
+	 * 
+	 */
+	public static void main(String[] args) {
+		// Khởi tạo 16 
+		StringBuilder stringBuider= new StringBuilder();
+		System.out.println("Capacity stringbuider: "+stringBuider.capacity());
+		System.out.println("stringBuider: "+stringBuider);
+		
+		StringBuilder stringBuider1= new StringBuilder("trần thị như trang");
+		System.out.println("Capacity stringbuider1: "+stringBuider1.capacity());
+		System.out.println("stringBuider1: "+stringBuider1);
+		
+		StringBuilder stringBuider2= new StringBuilder(10);
+		stringBuider2.append("12345");
+		System.out.println("Capacity stringbuider1: "+stringBuider2.capacity());
+		System.out.println("stringBuider2: "+stringBuider2);
+		
+		// Hàm append(...): nối chuỗi
+		System.out.println("-------- Append(...)------");
+		stringBuider.append("trần");
+		System.out.println("stringBuider: "+stringBuider);
+		stringBuider.append('-');
+		System.out.println("stringBuider: "+stringBuider);
+		stringBuider.append(true);
+		System.out.println("stringBuider: "+stringBuider);
+		stringBuider.append(1);
+		System.out.println("stringBuider: "+stringBuider);
+		stringBuider.append(2.0);
+		System.out.println("stringBuider: "+stringBuider);
+	}
+	
+	
+	
+}

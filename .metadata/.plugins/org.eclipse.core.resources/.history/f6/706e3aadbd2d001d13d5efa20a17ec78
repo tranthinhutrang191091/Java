@@ -1,0 +1,8 @@
+
+public class Vios extends Toyota {
+
+	public Vios(double longCar, double widthCar, double cylinderCapacity, int numberSeat, String color, double price) {
+		super(longCar, widthCar, cylinderCapacity, numberSeat, color, price);
+	}
+
+}

@@ -1,0 +1,45 @@
+package objectcollection;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Set;
+
+import object.Subject;
+
+public class SubjectScore {
+	private Subject setSubject;
+	private Float listScore;
+	private HashMap<Subject, Float> mapSubjcetScore= new HashMap<Subject, Float>();
+	public SubjectScore() {
+		this.mapSubjcetScore= new HashMap<Subject, Float>();
+	}
+	public SubjectScore(Subject setSubject, Float listScore) {
+		this.setSubject = setSubject;
+		this.listScore = listScore;
+		this.mapSubjcetScore.put(setSubject, listScore);
+	}
+	public Subject getSetSubject() {
+		return setSubject;
+	}
+	public void setSetSubject(Subject setSubject) {
+		this.setSubject = setSubject;
+	}
+	public Float getListScore() {
+		return listScore;
+	}
+	public void setListScore(Float listScore) {
+		this.listScore = listScore;
+	}
+	@Override
+	public String toString() {
+		String resuft = "";
+		Set<Subject> setSubjcet = this.mapSubjcetScore.keySet();
+		for (Subject subject : setSubjcet) {
+			resuft += subject.toString() + this.mapSubjcetScore.get(setSubjcet)+"|\n";
+
+		}
+		return resuft;
+	}
+	
+}

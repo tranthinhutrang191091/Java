@@ -1,0 +1,56 @@
+package objectcollection;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+import object.Class;
+import object.Unit;
+
+public class UnitClass {
+	private Unit unit;
+	private TreeSet<ClassStudent> treeClassStudent;
+	private TreeMap<Unit, TreeSet> mapUnitClass = new TreeMap<Unit, TreeSet>();
+	public UnitClass() {
+		this.unit= new Unit();
+		this.treeClassStudent= new TreeSet<ClassStudent>();
+		this.mapUnitClass= new TreeMap<Unit, TreeSet>();
+	}
+	public UnitClass(Unit unit, TreeSet<ClassStudent> treeClassStudent) {
+		
+		this.unit = unit;
+		this.treeClassStudent = treeClassStudent;
+		this.mapUnitClass.put(unit, treeClassStudent);
+	}
+	public Unit getUnit() {
+		return unit;
+	}
+	public void setUnit(Unit unit) {
+		this.unit = unit;
+	}
+	public TreeSet<ClassStudent> getTreeClassStudent() {
+		return treeClassStudent;
+	}
+	public void setTreeClassStudent(TreeSet<ClassStudent> treeClassStudent) {
+		this.treeClassStudent = treeClassStudent;
+	}
+	public TreeMap<Unit, TreeSet> getMapUnitClass() {
+		return mapUnitClass;
+	}
+	public void setMapUnitClass(TreeMap<Unit, TreeSet> mapUnitClass) {
+		this.mapUnitClass = mapUnitClass;
+	}
+	@Override
+	public String toString() {
+		String result = "";
+		Set<Unit> setUnit = this.mapUnitClass.keySet();
+		for (Unit key : setUnit) {
+			for (ClassStudent ct : this.treeClassStudent) {
+				result += key + ct.toString();
+			}
+		}
+		return result;
+	}
+	
+}

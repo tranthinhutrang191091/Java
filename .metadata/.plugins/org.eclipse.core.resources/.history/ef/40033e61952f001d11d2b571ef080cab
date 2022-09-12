@@ -1,0 +1,12 @@
+package com.daicent;
+
+import Object.ShareData;
+
+// Đồng bộ luồng -> an toàn dữ liệu
+public class SynchoronizationThread {
+	public static void main(String[] args) {
+		ShareData shareData= new ShareData();
+		ThreadThree threadThree = new ThreadThree(shareData);
+		threadThree.start();
+	}
+}

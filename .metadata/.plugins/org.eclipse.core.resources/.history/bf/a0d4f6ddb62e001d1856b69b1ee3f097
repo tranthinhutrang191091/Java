@@ -1,0 +1,25 @@
+package com.daicent;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * List là một interface trong java. 
+ * Nó chứa các phương thức để chèn và xóa các phần tử dựa trên chỉ số index
+ * 
+ */
+public class ListCollection {
+	public static void main(String[] args) {
+		// Khởi tạo đối tượng list kiểu dữ liệu String
+		List<String> list = new ArrayList<String>();
+        list.add("Java");//chèn các phần tử vào list tại chỉ số index
+        list.add("C++");
+        list.add("PHP");
+        list.add(1, "Python");
+        System.out.println("Phần tử có index =2 là list.get(2): " + list.get(2));
+        // show list
+        for (String s : list) {
+            System.out.println(s);
+        }
+	}
+}

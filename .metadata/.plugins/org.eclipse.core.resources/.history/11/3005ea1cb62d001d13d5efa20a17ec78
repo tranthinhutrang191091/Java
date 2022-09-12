@@ -1,0 +1,33 @@
+
+public class HuynDai extends Car {
+
+	public HuynDai(double longCar, double widthCar, double cylinderCapacity, int numberSeat, String color,
+			double price) {
+		super(longCar, widthCar, cylinderCapacity, numberSeat, color, price);
+	}
+
+	@Override
+	public void startUp() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void acceleration() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getSpeed() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

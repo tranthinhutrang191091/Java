@@ -1,0 +1,7 @@
+package objectcollection;
+
+import object.School;
+
+public class SchoolUnit {
+	private School school;
+}
