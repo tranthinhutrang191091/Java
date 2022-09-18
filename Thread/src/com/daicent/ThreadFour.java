@@ -17,17 +17,21 @@ public class ThreadFour extends Thread {
 		for (int i = 0; i < 10; i++) {
 			// ĐỒng bộ trên biến shareData
 			synchronized (shareData) {
+				int rad = random.nextInt(100);
+				shareData.setRad(rad);
+				System.out.println("Thread Four " + i + " => rad = " + rad);
+
+				shareData.notifyAll();
+				if(i==19) {
+					stop();
+				}
 				try {
 					// luồng đợi
 					shareData.wait();
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				int rad = random.nextInt(100);
-				shareData.setRad(rad);
-				System.out.println("Thread Four " + i + " => rad = " + rad);
-				
-				shareData.notify();
+
 			}
 
 		}

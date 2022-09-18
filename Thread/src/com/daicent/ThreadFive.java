@@ -13,17 +13,23 @@ public class ThreadFive extends Thread {
 
 	@Override
 	public void run() {
+		int result=0;
 		for(int i=0;i<10;i++) {
 			synchronized (shareData) {
+				if(i==19) {
+					stop();
+				}
+				shareData.notifyAll();
 				try {
 					shareData.wait();
 				} catch (InterruptedException e) {
+					
 					e.printStackTrace();
 				}
 			}
-			 double  result =Math.pow(shareData.getRad(), 2);
+			 result =shareData.getRad()*shareData.getRad();
 			 System.out.println("Thraed Five "+i+" => "+ result);
-			 shareData.notify();
+			 
 		}
 	}
 	

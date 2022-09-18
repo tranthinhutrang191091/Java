@@ -85,6 +85,7 @@ public class StudentSubject implements Comparable<StudentSubject>{
 			return false;
 		return true;
 	}
+	
 	@Override
 	public int compareTo(StudentSubject o) {
 		String nameThis=this.getStudent().getFullName();

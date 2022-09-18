@@ -1,0 +1,5 @@
+Xin chào!
+Trần Thị Như Trang
+Trần Thị Như Trang 1Trần Thị Như Trang 2
+Student [codeStudent=001, fullName=Trần Thị Như Trang, yearBirth=1991, scoreAverage=9.8]
+Student [codeStudent=002, fullName=Trần  Trang, yearBirth=1990, scoreAverage=7.8]

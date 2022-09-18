@@ -1,7 +1,0 @@
-package com.daicent;
-
-public class Main {
-	public static void main(String[] args) {
-		
-	}
-}

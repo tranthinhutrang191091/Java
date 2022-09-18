@@ -7,6 +7,7 @@ public class WaitNotifyThread {
 		ShareData shareDate= new ShareData();
 		ThreadFour threadFour= new ThreadFour(shareDate);
 		ThreadFive threadFive = new ThreadFive(shareDate);
+		
 		threadFour.start();
 		threadFive.start();
 	}
